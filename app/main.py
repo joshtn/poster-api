@@ -22,7 +22,7 @@ class Post(BaseModel):
 while True:
 
     try:
-        conn = psycopg2.connect(host='asdfsadf', database='sdfasdf', user='asdfas', password='asdas', cursor_factory=RealDictCursor)
+        conn = psycopg2.connect(host='***', database='***', user='***', password='***', cursor_factory=RealDictCursor)
         cursor = conn.cursor()
         print("Database connection was successfull!")
         break
