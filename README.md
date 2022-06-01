@@ -2,6 +2,7 @@
 
 ## (Currently under development, in progress)
 Building my own API
+Test it out: Deployed on [Link](https://poster-api-python.herokuapp.com/)
 
 ## Technologies
 
