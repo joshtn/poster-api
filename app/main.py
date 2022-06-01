@@ -36,5 +36,5 @@ def test_posts(db: Session = Depends(get_db)):
 
 @app.get("/")
 def root():
-    return {"message": "Hello api!!"}
+    return {"How to use api": "Look at https://poster-api-python.herokuapp.com/docs#/"}
 
