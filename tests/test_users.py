@@ -31,7 +31,7 @@ def test_login_user(client, test_user):
     ('wrongemail@gmail.com', 'test123', 403),
     ('pytest1@gmail.com', 'est123', 403),
     ('wrongemail@gmail.com', 'ghghghf', 403),
-    (None,'wrongPass' 'asdasdf', 403),
+    (None, 'wrongPass', 422),
     ('pytest1@gmail.com', None, 422)
 ])
 def test_incorrect_login(test_user, client, email, password, status_code):
