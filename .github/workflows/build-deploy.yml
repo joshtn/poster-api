@@ -36,7 +36,7 @@ jobs:
       uses: actions/checkout@v2
     - name: test printing hello
       run: echo "hello testtest"
-    - name: Install python version 3.9
+   - name: Install python version 3.9
       uses: actions/setup-python@v2
       with:
         python-version: "3.9"
@@ -47,4 +47,4 @@ jobs:
     - name: test with pytest
       run: |
         pip install pytest
-        pytest
+        pytest 
